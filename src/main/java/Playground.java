@@ -16,10 +16,11 @@ public class Playground {
 // input: arr = [1, 2, 3, 3, 5, 7, 7, 7, 7, 9], target = 8; output = 0
 // input: arr = [1, 2, 3, 3, 5, 7, 7, 7, 7, 9], target = 1; output = 1
 
-  LongestCommonPrefix longestCommonPrefix = new LongestCommonPrefix();
-  String[] strings = {"a","ab"};
+//  LongestCommonPrefix longestCommonPrefix = new LongestCommonPrefix();
+//  String[] strings = {"a","ab"};
+//
+//    System.out.println(longestCommonPrefix.longestCommonPrefix(strings));
 
-    System.out.println(longestCommonPrefix.longestCommonPrefix(strings));
 
 
   }
