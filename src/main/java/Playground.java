@@ -1,8 +1,3 @@
-import java.math.BigDecimal;
-import java.util.Collections;
-import java.util.Deque;
-
-
 public class Playground {
   public static void main(String[] args) {
 
@@ -21,8 +16,12 @@ public class Playground {
 //
 //    System.out.println(longestCommonPrefix.longestCommonPrefix(strings));
 
-      Palindrome palindrome = new Palindrome();
-      System.out.println(palindrome.isPalindrome("marianna"));
+//      Palindrome palindrome = new Palindrome();
+//      System.out.println(palindrome.isPalindrome("marianna"));
+
+      FindDuplicates findDuplicates = new FindDuplicates();
+      int [] numbers = {3,6,8,3,9,8};
+      System.out.println(findDuplicates.findDuplicatesSimpleApproach(numbers));
 
 
   }

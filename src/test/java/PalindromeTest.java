@@ -13,6 +13,7 @@ class PalindromeTest {
     void setUp() {
         palindrome = new Palindrome();
     }
+// returnsTrueForValidPalindrome, returnsTrueForMixedCasePalindrome
 
     @Test
     void abbaShouldReturnTrue() {
