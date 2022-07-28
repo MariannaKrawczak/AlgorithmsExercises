@@ -19,10 +19,12 @@ public class Playground {
 //      Palindrome palindrome = new Palindrome();
 //      System.out.println(palindrome.isPalindrome("marianna"));
 
-      FindDuplicates findDuplicates = new FindDuplicates();
-      int [] numbers = {3,6,8,3,9,8};
-      System.out.println(findDuplicates.findDuplicatesSimpleApproach(numbers));
+//      FindDuplicates findDuplicates = new FindDuplicates();
+//      int [] numbers = {3,6,8,3,9,8};
+//      System.out.println(findDuplicates.findDuplicatesSimpleApproach(numbers));
 
+      ReverseString reverseString = new ReverseString();
+      System.out.println(reverseString.reverseString2("caterpillar"));
 
   }
 }
