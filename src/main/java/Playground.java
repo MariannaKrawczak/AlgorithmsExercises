@@ -1,3 +1,6 @@
+import java.util.Arrays;
+import java.util.Collection;
+
 public class Playground {
   public static void main(String[] args) {
 
@@ -23,8 +26,16 @@ public class Playground {
 //      int [] numbers = {3,6,8,3,9,8};
 //      System.out.println(findDuplicates.findDuplicatesSimpleApproach(numbers));
 
-      ReverseString reverseString = new ReverseString();
-      System.out.println(reverseString.reverseString2("caterpillar"));
+//      ReverseString reverseString = new ReverseString();
+//      System.out.println(reverseString.reverseString2("caterpillar"));
+
+      Sorting sorting = new Sorting();
+      int[] arrayToSort = {3,-5,11,18,0,-9,2,2,0};
+      sorting.insertionSort(arrayToSort);
+      System.out.println(Arrays.toString(arrayToSort));
+      int[] array = {-7,99,0,0,0,5,7,3,5,8,24,38,21};
+      Arrays.sort(array);
+      System.out.println(Arrays.toString(array));
 
   }
 }
