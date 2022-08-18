@@ -30,4 +30,15 @@ class PalindromeTest {
         assertTrue(palindrome.isPalindrome("RaCEcar"));
     }
 
+    @Test
+    void returnsFalseForNegativeNumber() {assertFalse(palindrome.isNumberPalindromeWithoutConverting2(-121));}
+
+    @Test
+    void returnsTrueForValidNumberPalindrome() {assertTrue(palindrome.isNumberPalindromeWithoutConverting2(12321));}
+
+    @Test
+    void returnsFalseForInvalidNumberPalindrome() {
+        assertFalse(palindrome.isNumberPalindromeWithoutConverting2(12345));
+    }
+
 }
